@@ -6,8 +6,8 @@
     <com.example.xw.jikeviewpager.VerticalViewPager
         android:layout_centerInParent="true"
         android:id="@+id/vertical_viewpager"
-        android:layout_width="200dp"
-        android:layout_height="200dp" />
+        android:layout_width="140dp"
+        android:layout_height="160dp" />
 
     <Button
         android:layout_marginBottom="80dp"
