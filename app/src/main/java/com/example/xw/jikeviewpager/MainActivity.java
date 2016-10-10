@@ -66,7 +66,6 @@ public class MainActivity extends FragmentActivity {
             "为什么哑巴琴女会说话?",
             "死亡如风,常伴吾身",
                 "timo队长，正在送命"
-
         };
         for (int i = 0; i <ims2.length ; i++) {
             Item item=new Item(ims2[i],text2[i]);
