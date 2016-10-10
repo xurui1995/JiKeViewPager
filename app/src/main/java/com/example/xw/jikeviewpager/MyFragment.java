@@ -18,7 +18,7 @@ public class MyFragment extends Fragment {
     private static final String ARG_TEXT="text";
     private int imageId;
     private String text;
-    private ImageView iv;
+    private RoundRectImageView iv;
     private TextView tv;
     public static MyFragment newInstance(int imgId,String text){
         Bundle args=new Bundle();
@@ -42,7 +42,7 @@ public class MyFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View v=inflater.inflate(R.layout.fragment_item,container,false);
-        iv= (ImageView) v.findViewById(R.id.iv);
+        iv= ( RoundRectImageView) v.findViewById(R.id.iv);
         tv= (TextView) v.findViewById(R.id.tv);
         iv.setImageResource(imageId);
         tv.setText(text);

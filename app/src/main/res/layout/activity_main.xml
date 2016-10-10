@@ -4,15 +4,15 @@
                 android:layout_height="match_parent">
 
     <com.example.xw.jikeviewpager.VerticalViewPager
-      android:layout_marginTop="200dp"
+      android:layout_marginTop="120dp"
         android:id="@+id/vertical_viewpager"
-        android:layout_marginLeft="40dp"
+        android:layout_marginLeft="30dp"
         android:layout_width="140dp"
         android:layout_height="160dp" />
 
     <com.example.xw.jikeviewpager.VerticalViewPager
         android:id="@+id/vertical_viewpager2"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="120dp"
         android:layout_toRightOf="@+id/vertical_viewpager"
         android:layout_marginLeft="10dp"
         android:layout_width="140dp"
@@ -21,7 +21,7 @@
     </com.example.xw.jikeviewpager.VerticalViewPager>
 
     <Button
-        android:layout_marginBottom="80dp"
+        android:layout_marginBottom="50dp"
         android:id="@+id/change_btn"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
