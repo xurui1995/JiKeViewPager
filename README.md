@@ -1,7 +1,7 @@
 # JiKeViewPager
 防即刻App的一个控件
 
-![](http://p1.bqimg.com/567571/cbc275fa2ceb8f45.gif)   
+![](https://github.com/xurui1995/JiKeViewPager/blob/master/gif1.gif?raw=true)   
 # 另一种效果  
 修改AndroidMainfest.xml  
 ```
@@ -13,5 +13,5 @@
             </intent-filter>
         </activity> 
 ```  
- ![](http://p1.bpimg.com/567571/0b0529a9b50d2ee2.gif)
+ ![](https://github.com/xurui1995/JiKeViewPager/blob/master/gif2.gif?raw=true)
 
